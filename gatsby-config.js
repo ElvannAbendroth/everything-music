@@ -18,7 +18,7 @@ module.exports = {
     description: `Resources for learning and exploring ideas about music.`,
     siteUrl: `http://www.elvann.com`,
     social: {
-      twitter: `elvannmusic`,
+      youtube: `https://www.youtube.com/channel/UCY3DEEgMSMvjww7v3aKDsig`,
     },
   },
   plugins: [
