@@ -8,6 +8,7 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
+  pathPrefix: "/everything-music",
   siteMetadata: {
     title: `Everything Music`,
     author: {
