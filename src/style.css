@@ -53,6 +53,9 @@
   --fontSize-6: 2.488rem;
   --fontSize-7: 2.986rem;
   --color-primary: #005b99;
+  --color-primary-fg: #ffffff;
+  --color-secondary: #b3d4ea;
+  --color-secondary-fg: black;
   --color-text: #2e353f;
   --color-text-light: #4f5969;
   --color-heading: #1a202c;
@@ -334,4 +337,18 @@ iframe {
   ol {
     list-style-position: inside;
   }
+}
+
+.tags-in-header {
+  display: flex;
+  gap: 0.5rem;
+  font-size: small;
+  padding-top: 0.3rem;
+}
+
+.tag-in-header {
+  background-color: var(--color-secondary);
+  color: var(--color-secondary-fg);
+  border-radius: var(--radius);
+  padding-inline: 0.5rem;
 }
